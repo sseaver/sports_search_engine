@@ -8,12 +8,12 @@ cursor.execute("DROP TABLE IF EXISTS person_data;")
 create_table_command = """
 CREATE TABLE person_data (
     name VARCHAR(50),
-    age SMALLINT(50),
-    player_number SMALLINT(3),
+    age SMALLINT(),
+    player_number SMALLINT(),
     position VARCHAR(50),
-    goals SMALLINT(3),
-    assists SMALLINT(3),
-    saves SMALLINT(3),
+    goals SMALLINT(),
+    assists SMALLINT(),
+    saves SMALLINT(),
     team VARCHAR(50)
 );
 """
